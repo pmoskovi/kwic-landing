@@ -1,0 +1,290 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body, html {
+/* Not sure this is needed
+  width: 100%;
+  height: 100%;
+  */
+}
+body {
+  padding-top: 50px; /* For the Bootstrap fixed navbar */
+}
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.topnav {
+  font-size: 14px;
+  background-color: #43688b;
+  /*background-color: rgba(67, 104, 139, 0.9)*/
+}
+
+.navbar-brand img {
+  margin-top: -4px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default {
+  border-color: #666;
+}
+
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+.intro-header {
+  padding-top: 20px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+
+  padding-bottom: 20px;
+  text-align: center;
+  color: #f47c31;
+  color: #fff;
+
+  background-color: #4c89b1;
+  background-image:
+  /* linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), */
+  url(../img/cool-bridge.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.btn-action {
+    color: #333;
+    background-color: #e6e6e6;
+    font-size: 24px;
+}
+
+.btn-action:hover {
+    background-color: #43688b;
+    color: white;
+    border-color: #adadad;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.intro-message > h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+.intro-message > h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.kwic .intro-message {
+  padding-top: 0;
+  margin-top: 40px;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.intro-message > h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  color: #f8f8f8;
+}
+.product-message {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  color: #f8f8f8;
+  font-size: 1.2em;
+}
+
+.product-message > a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.product-message > a:hover {
+  color: #f47c31;
+}
+
+.content-section-a h2, .content-section-b h2 {
+  margin-top: 0;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message > h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.content-section-a {
+  padding: 50px 0;
+  background-color: #43688b;
+  background-color: #666;
+  color: white;
+}
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+.section-heading {
+  margin-bottom: 30px;
+}
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/book-banner.jpg) no-repeat center center;
+  background-size: cover;
+}
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.banner h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 2.2em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+}
+footer {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+  min-height: 200px;
+}
+p.copyright {
+  margin: 15px 0 0;
+}
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+.icon-container {
+  background-color: rgba(200, 200, 200, .9);
+  color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+.cloud-logo {
+  padding-top:10px;
+}
+.faqHeader {
+     font-size: 37px;
+     margin: 20px;
+ }
+
+ #faqContainer a {
+  font-weight: 400;
+ }
+
+.panel-default > .panel-heading-faq {
+  background-color: white;
+  border-color: white;
+  color: #222;
+  padding-left: 0;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  border-top-color: orange;
+}
+
+.panel-heading {
+}
+
+.panel-faq {
+  border-color: white;
+}
+
+.panel-body {
+  font-weight: 400;
+  padding-left: 0;
+}
+
+.ul {
+  font-weight: 100;
+}
+
+.figure {
+  border:3px solid black;
+}
+
+code {
+    padding: 6px 6px;
+    font-size: 80%;
+    color: #555;
+    background-color: #FFFDDB;
+    border-radius: 4px;
+}
+
+/*
+To work around Bootstrap fixed header.
+See: http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
+*/
+a.anchor {
+  display: block;
+  visibility: hidden;
+  position: relative;
+  top: -50px;
+}
